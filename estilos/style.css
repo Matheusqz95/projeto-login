@@ -22,7 +22,7 @@
   transform: translate(-50%, -50%);
   background-color: white;
   width: 250px;
-  height: 500px;
+  height: 510px;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.322);
@@ -47,3 +47,71 @@
  #formulario > p {
   font-size: 1em;
  }
+ form > .campo {
+  background-color:rgb(109, 58, 109) ; 
+  width: 100%;
+  height: 40px;
+  display: block;
+  border-radius:8px ;
+  margin: 5px 0px;
+  border: 2px solid rgb(109, 58, 109);
+ }
+ .campo > label {
+  display: none;
+ }
+ .campo > span {
+  color: white;
+ 
+  font-size: 2em;
+  width: 40px;
+  padding: 5px;
+ }
+ .campo > input {
+  background-color:rgb(16, 138, 138) ;
+  font-size: 1em;
+  width: calc(100% - 45px);
+  height: 100%;
+  transform: translateY(-12px);
+  border: none;
+  border-radius:8px ;
+  padding: 4px;
+ }
+ .campo > input:focus-within {
+  background-color: white;
+  
+ }
+ form > input[type=submit]{
+  display: block;
+  font-size: 1,3em;
+  width: 100%;
+  height: 30px;
+  background-color: rgb(0, 119, 128);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+ }
+ form > input[type=submit]:hover {
+  background-color: rgb(7, 70, 75) ;
+ }
+form > a.btn {
+  display: block;
+  text-align: center;
+  font-size: 1.0em;
+  width: 100%;
+  height: 30px;
+  background-color: rgb(247, 247, 247);
+  color:rgb(7, 70, 75) ;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid rgb(5, 78, 5); 
+  margin-top: 5px;
+  padding-top: 2.5px;
+}
+form > a.btn:hover {
+background-color: rgb(16, 138, 138);
+}
+form > a.btn > span {
+  font-size: 0.8em;
+}

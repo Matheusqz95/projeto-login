@@ -15,17 +15,16 @@
         <div id="imagem">
           
          </div>
-         <div id="formulario">
-
-            <h1>Login</h1>
-
-            <p>Seja bem-vindo(a) novamente. Faça Login para acessar sua conta.</p>
+         <div id="formulario">  
+          <h1>Login</h1>  
+          <p>Seja bem-vindo(a) novamente. Faça Login para acessar sua conta.</p>
 
             <form action="login.php" method="post" autocomplete="on">
-              <div class="campo">
-                <span class="material-symbols-outlined">
+
+              <div class="campo"><span class="material-symbols-outlined">
                   person
                   </span>
+
                 <input type="email" name="login" id="ilogin" placeholder="Seu E-mail" autocomplete="email" required maxlength="50">
                 <label for="ilogin">Login</label>
               </div>
@@ -33,11 +32,13 @@
                 <span class="material-symbols-outlined">
                   vpn_key
                   </span>
-                <input type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="current-password" required minlength="8" maxlength=20>
+
+                <input type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="current-password" required minlength="8" maxlength=10>
                 <label for="isenha">Senha</label>
               </div>
+
               <input type="submit" value="Entrar">
-              <a href="esqueci.html">
+              <a href="esqueci.html" class="btn"> 
                 Esqueci a Senha <span class="material-symbols-outlined">
                   vpn_key_off
                   </span>
