@@ -62,6 +62,8 @@ background-image: linear-gradient(to top, rgb(0, 119, 128), rgb(109, 58, 109))  
 
  #formulario > p {
   font-size: 1em;
+  text-align: justify;
+  
  }
 
  form > .campo {
