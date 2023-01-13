@@ -7,10 +7,18 @@
   box-sizing: border-box;
  }
 
+/* 
+background-image: linear-gradient(to top, rgb(0, 119, 128), rgb(109, 58, 109))     background-color: rgba(99, 51, 99, 0.822);
+*/
+
+
  body,  html {
-  background-color: rgb(109, 58, 109);
+  background-color: rgba(99, 51, 99, 0.822);
   height: 100vh;
   width: 100vw;
+ }
+ body {
+  background-image: linear-gradient(to top, rgb(78, 155, 179), rgba(88, 41, 88, 0.541));
  }
 
  main {
@@ -80,7 +88,7 @@
  .campo > input {
   background-color:rgb(16, 138, 138) ;
   font-size: 1em;
-  width: calc(100% - 46px);
+  width: calc(100% - 45px);
   height: 100%;
   border: none;
   border-radius:8px ;
@@ -131,3 +139,4 @@ background-color: rgb(16, 138, 138);
 form > a.btn > span {
   font-size: 0.8em;
 }
+

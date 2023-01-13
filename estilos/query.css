@@ -17,7 +17,7 @@
   }
   #login {
     width: 80vw;
-    height: 320px;
+    height: 330px;
   }
   #login > #imagem {
     float: left;
@@ -30,11 +30,14 @@
   }
   #formulario > p {
     margin: 20px 0px;
+    text-align: justify;
+    
   }  
   form > input[type=submit]{
     margin-top: 14px;
    }
 }
+
 @media screen and (min-width: 992px)  {
   body{
     background-image: linear-gradient(to top, rgb(0, 119, 128), rgb(109, 58, 109))
@@ -56,6 +59,7 @@
   #formulario > p {
     font-size: 1em;
     margin: 20px 0px;
+    text-align: justify;
    }
    #formulario > h1{
     font-size: 1.8em;
